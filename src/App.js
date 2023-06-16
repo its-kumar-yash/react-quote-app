@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import QuoteCard from "./components/QuoteCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="app"
+      style={{ backgroundColor: "gray", minHeight: "100vh" }}
+    >
+      <div className="container pt-5 main-container">
+        <div className="jumbotron" id="quote-box">
+          <QuoteCard />
+          <div className="text-center pt-5">
+            <b>By Yash</b>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
