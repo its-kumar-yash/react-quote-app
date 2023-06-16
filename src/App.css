@@ -1,3 +1,11 @@
+* {
+  transition: all 0.5s ease-in-out;
+}
+
+.custom-container {
+  width:60%;
+}
+
 .App {
   text-align: center;
 }

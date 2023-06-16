@@ -5,7 +5,7 @@ function App() {
   return (
     <div
       className="app"
-      style={{ backgroundColor: "gray", minHeight: "100vh" }}
+      style={{ backgroundColor: "#dcdcdc", minHeight: "100vh" }}
     >
       <div className="container pt-5 main-container">
         <div className="jumbotron" id="quote-box">
